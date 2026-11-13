@@ -1,0 +1,21 @@
+# Local cache (downloaded ADB platform-tools, APKs, binaries, models, SSH keys)
+.pocket_llm/
+downloads/
+models/
+keys/
+*.gguf
+*.apk
+*.tar.gz
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
